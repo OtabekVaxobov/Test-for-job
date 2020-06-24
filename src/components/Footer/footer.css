@@ -1,0 +1,24 @@
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* Фиксированное положение */
+
+  bottom: 0; /* Левый нижний угол */
+
+  width: 100%;
+}
+
+.Footer a {
+  display: flex;
+  color: black; /* Цвет ссылок */
+  /* Поля вокруг текста */
+  height: 40px;
+  text-decoration: none;
+}
+.Footer a:hover {
+  color: white;
+  background: lightskyblue; /* Цвет фона под ссылкой */
+
+  text-decoration: none;
+}
